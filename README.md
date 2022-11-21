@@ -73,6 +73,7 @@ cd cd0157-Server-Deployment-and-Containerization/
 └── trust.json     #ToDo 
 ```
 
+
      
 ## Project Steps
 
@@ -84,5 +85,12 @@ Completing the project involves several steps:
 4. Store a secret using AWS Parameter Store
 5. Create a CodePipeline pipeline triggered by GitHub checkins
 6. Create a CodeBuild stage which will build, test, and deploy your code
+
+## Note
+.env_file contains;
+JWT_SECRET='myjwtsecret'
+LOG_LEVEL=DEBUG
+which are stored locally 
+
 
 For more detail about each of these steps, see the project lesson.
